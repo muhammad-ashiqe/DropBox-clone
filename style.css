@@ -1,0 +1,404 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body{
+  background: #000;
+}
+
+li{
+  cursor: pointer;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+
+body {
+  background: #f7f5f2;
+  overflow-x: hidden;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  height: 70px;
+  justify-content: space-between;
+  width: 100%;
+  background: #f7f5f2;
+  position: fixed;
+  top: 0;
+}
+
+.nav-bar li:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-text p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.logo-container {
+  width: 40px;
+  height: 40px;
+}
+.logo-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.links-container ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.links-container {
+  display: flex;
+  padding: auto;
+}
+.nav-btn {
+  background: #0061fe;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+}
+.links-container ul img {
+  width: 20px;
+}
+
+.right-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.hero-video {
+  height: 600px;
+  background: #191818;
+}
+
+.hero-video video {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  background: #2b2929;
+  margin: 0;
+  /* height: 600px; */
+  padding-top: 70px;
+}
+.hero-text {
+  padding: 35px;
+  color: white;
+}
+
+.hero-text h2 {
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.hero-text p {
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.hero-text button {
+  color: black;
+  background: #3984ff;
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+.purchase {
+  text-decoration: underline;
+  line-height: 2px;
+}
+
+.plan-text-container {
+  background: #f7f5f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.plan-text-container p {
+  font-weight: 600;
+}
+
+.plan-container {
+  background: white;
+}
+
+.stages {
+  display: flex;
+  flex-direction: column;
+}
+
+.stage-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 220px;
+}
+
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.input-container {
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.input-container input {
+  width: 20px;
+  height: 20px;
+}
+
+.plans {
+  margin-top: 50px;
+}
+
+.plans .item-card {
+  padding: 24px 48px 48px;
+  border-radius: 12px;
+  height: 790px;
+  margin-top: 30px;
+  /* height: auto; */
+}
+
+.plans .proffesionals {
+  background: #faf9f7;
+}
+
+.plan-title {
+  color: gray;
+}
+
+.plan-heading {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.plan-price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.try-btn {
+  padding: 16px 24px;
+  font-size: 16px;
+  color: white;
+  background: #0061fe;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.or-buy {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.item-card p i {
+  margin: 8px;
+}
+.small-team {
+  background: #f7f5f2;
+}
+
+.large-teams {
+  background: #f2eee8;
+}
+
+.stage-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.stage-title h2 {
+  font-size: 32px;
+}
+
+.stages {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.stages-items {
+  padding: 0 45px;
+}
+
+.teams {
+  background: #201f1f;
+  color: white;
+  padding: 50px 50px;
+  width: 100%;
+}
+
+.teams-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.teams-img {
+  background: #b4dc19;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0;
+}
+
+.teams-section {
+  padding: 30px;
+}
+
+.teams-desc {
+  padding: 50px;
+}
+
+.type {
+  padding: 50px 50px;
+}
+
+.type-item-card {
+  background: #2b2929;
+  border-radius: 12px;
+}
+
+.type-img-container {
+  width: 100%;
+}
+
+.type-img-container img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.item-description {
+  padding: 30px 20px;
+}
+
+.item-description h2 {
+  margin: 30px 0;
+}
+
+.item-description p {
+  margin: 30px 0;
+}
+
+.trail-text {
+  font-size: 32px;
+}
+
+.trail-btn {
+  background: #0061fe;
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding: 20px 30px;
+}
+
+.trail-section {
+  padding: 60px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  background: #000;
+  width: 100%;
+  padding: 80px;
+  color: white;
+}
+
+.footer h4 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer li {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+}
+
+.socials i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.english {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .plans .item-card {
+    height: auto;
+  }
+  .stage-title h2{
+    display: none;
+  }.stages{
+    margin-top: 10px;
+  }.trail-section{
+    display: flex;
+    flex-direction: column;
+  }.trail-btn{
+    margin-top: 20px;
+  }
+}
