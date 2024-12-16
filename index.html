@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -34,7 +35,7 @@
   </head>
   <body>
     <div class="container-fluid p-0">
-      <div class="nav-bar">
+      <div class="nav-bar d-flex align-items-center">
         <div class="logo-div">
           <div class="logo-container">
             <img src="assets/fav_iocn.png" alt="" />
@@ -45,20 +46,22 @@
         </div>
 
         <div class="right-section">
-          <div class="links-container d-none d-sm-flex">
-            <ul class="d-flex list-unstyled m-0">
+          <div class="links-container d-flex">
+            <ul class=" d-none d-sm-none d-md-none d-lg-flex ">
               <li><img src="assets/world-icon-png-3008.png" alt="" /></li>
               <li>Sign up</li>
               <li>Login</li>
             </ul>
           </div>
 
-          <button class="btn btn-primary">Get Started</button>
+          <button class="nav-btn">Get Started</button>
         </div>
       </div>
 
+
+
       <div class="hero d-flex row container-fluid">
-        <div class="hero-text col-md-4 col-sm-12">
+        <div class="hero-text col-lg-4 col-md-12 col-sm-12">
           <h2>
             Everything you and your business need to work efficiently, all in
             one place
@@ -71,7 +74,7 @@
           <button>Try it for free</button>
           <p class="purchase">or puchase it now</p>
         </div>
-        <div class="hero-video col-md-8 col-sm-12">
+        <div class="hero-video col-lg-8 col-md-12 col-sm-12">
           <video
             autoplay
             muted
@@ -81,22 +84,26 @@
         </div>
       </div>
 
+
       <div class="plan-text-container container-fluid">
         <h2 class="">All the tools you need in one plan</h2>
-        <p>
+        <p class="d-none d-sm-none d-md-none d-lg-block ">
           Store and share files. Sign and send documents. Seamlessly collaborate
           on creative media. All in one place.
         </p>
       </div>
 
-      <div class="plan-container container-fluid">
+
+
+      
+      <div class="plan-container container-fluid p-0">
         <div class="input-container">
           <input type="radio" />Billed monthly <input type="radio" />Billed
           yearly
         </div>
-        <div class="plans row">
-          <div class="col-md-4 col-sm-12 col-12">
-            <div class="item-card proffesionals">
+        <div class="plans row container-fluid px-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 container-fluid px">
+            <div class="item-card col-12 proffesionals">
               <p class="plan-title">For proffessionals</p>
               <p class="plan-heading">Essentials</p>
               <p class="plan-price">$16.58 / month</p>
@@ -126,7 +133,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 col-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
             <div class="item-card small-team">
               <p class="plan-title">For smaller teams</p>
               <p class="plan-heading">Business</p>
@@ -164,7 +171,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 col-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
             <div class="item-card large-teams">
               <p class="plan-title">For large teams</p>
               <p class="plan-heading">Business Plus</p>
@@ -206,12 +213,15 @@
         </div>
       </div>
 
-      <div class="stages">
+
+
+      
+      <div class="stages container-fluid">
         <div class="stage-title">
           <h2>Dropbox supports you and your <br> business at every stage</h2>
         </div>
-        <div class="stages-items row">
-          <div class="col-md-3">
+        <div class="stages-items container-fluid row">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
             <div class="item">
               <div class="img-container">
                 <img
@@ -228,7 +238,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
             <div class="item">
               <div class="img-container">
                 <img
@@ -243,7 +253,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
             <div class="item">
               <div class="img-container">
                 <img
@@ -259,7 +269,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
             <div class="item">
               <div class="img-container">
                 <img
@@ -278,20 +288,22 @@
         </div>
       </div>
 
-      <div class="teams">
+
+
+      <div class="teams container-fluid">
         <div class="teams-text">
           <h2>Over 600,000 teams use Dropbox</h2>
           <p class="or-buy">Learn more about our customers</p>
         </div>
-        <div class="row teams-section">
-          <div class="col-md-4 teams-img">
+        <div class="container-fluid row teams-section">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 teams-img">
             <img
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/business/designit-logo.svg?id=58008198-45de-44c3-820a-22c61f473d1e"
               alt=""
             />
           </div>
-          <div class="col-md-8 teams-desc">
-            <p>
+          <div class="col-lg-8 col-md-6 col-sm-12 col-12 teams-desc">
+            <p class="d-none d-sm-none d-md-block d-lg-block">
               “Our team is constantly working across different countries, time
               zones and offices. A lot of solutions can accommodate that now,
               but none make it as seamless as Dropbox and Dropbox Paper.”
@@ -305,8 +317,8 @@
           </div>
         </div>
 
-        <div class="type row">
-          <div class="col-md-6">
+        <div class="type container-fluid row p-0 g-5">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12 px-3">
             <div class="type-item-card">
               <div class="type-img-container">
                 <img
@@ -327,7 +339,7 @@
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="personal col-lg-6 col-md-12 col-sm-12 col-12 px-3">
             <div class="type-item-card">
               <div class="type-img-container">
                 <img
@@ -357,9 +369,10 @@
           <button class=" trail-btn">Start your trail</button>
         </div>
       </div>
-      
-    </div><div class="footer w-100 row">
-        <div class="col-md-2">
+
+
+      <div class="footer container-fluid p-5 row">
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
           <h4>Dropbox</h4>
           <li>Desktop app</li>
           <li>Mobile app</li>
@@ -371,7 +384,7 @@
           <li>Templates</li>
           <li>Free tools</li>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
           <h4>Products</h4>
           <li>Plus</li>
           <li>Professional</li>
@@ -383,7 +396,7 @@
           <li>Plans</li>
           <li>Product updates</li>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
           <h4>Features</h4>
           <li>Send large files</li>
           <li>Send long videos</li>
@@ -396,7 +409,7 @@
           <li>Screen recorder</li>
           <li>Convert to PDF</li>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
           <h4>Support</h4>
           <li>Help center</li>
           <li>Contact us</li>
@@ -407,7 +420,7 @@
           <li>Sitemap</li>
           <li>Learning resources</li>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
           <h4>Resources</h4>
           <li>Blog</li>
           <li>Customer stories</li>
@@ -418,7 +431,7 @@
           <li>Reseller partners</li>
           <li>Integration partners</li>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
           <h4>Company</h4>
           <li>About us</li>
           <li>Jobs</li>
@@ -436,5 +449,6 @@
           <p><i class="fa-solid fa-globe"></i> English (United States) ></p>
         </div>
       </div>
+    </div>
   </body>
 </html>

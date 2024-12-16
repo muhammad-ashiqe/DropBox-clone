@@ -1,0 +1,22 @@
+@media screen and (max-width: 1330px) {
+  .plans .item-card {
+    height: auto;
+    padding: 30px 30px;
+  }
+  .stage-title h2{
+    display: none;
+  }.stages{
+    margin-top: 10px;
+  }.trail-section{
+    display: flex;
+    flex-direction: column;
+  }.trail-btn{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .personal{
+    margin-top: 30px;
+  }
+}
